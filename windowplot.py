@@ -8,7 +8,7 @@ import webbrowser
 
 # flow.plot() 대체
 # window유저의 임시 폴더에 생기더라도, 즉시 현재 프로젝트 폴더로 가져와서 권한 문제 없이 실행하게 함
-def sync_and_cleanup_flow(flow_instance, folder_name="flow_visual"):
+def sync_and_cleanup_flow(flow_instance, folder_name="crewai_flow_chart"):
     # 1. CrewAI plot 실행 (임시 폴더에 생성됨)
     flow_instance.plot()
 
